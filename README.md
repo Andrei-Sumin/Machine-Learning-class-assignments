@@ -43,7 +43,6 @@ The dataset contains 614 entries with the following features:
 - `model.pkl`: Saved Random Forest model for deployment.
 - `scaler.pkl`: Scaler used for feature normalization.
 - `dataset.csv`: (Placeholder) Instructions for accessing the dataset or use a mock dataset.
-- `README.md`: Project overview and details.
 
 ---
 
