@@ -42,54 +42,27 @@ The dataset contains 614 entries with the following features:
 - `Loan_Approval_Prediction.ipynb`: Main notebook containing code and analysis.
 - `model.pkl`: Saved Random Forest model for deployment.
 - `scaler.pkl`: Scaler used for feature normalization.
-- `dataset.csv`: (Placeholder) Instructions for accessing the dataset or use a mock dataset.
+- `dataset.csv`: a dataset.
 
 ---
 
-## Short review of machine learning algorithms used
+## Short review of machine learning algorithms used for classification
 This section provides a brief description of the machine learning models used in this project to predict loan approvals:
 
-### 1. K-Nearest Neighbors (KNN)
-- A non-parametric algorithm that classifies based on the majority class of the k-nearest points.
-- **Strengths**: Simple and effective for smaller datasets.
-- **Weaknesses**: Computationally expensive for large datasets.
+1. **K-Nearest Neighbors (KNN)**: A non-parametric algorithm that classifies based on the majority class of the k-nearest points.
 
-### 2. Decision Tree
-- A tree-based model that splits data into subsets based on feature values.
-- **Strengths**: Easy to visualize and interpret; captures non-linear relationships.
-- **Weaknesses**: Prone to overfitting without constraints like max depth or minimum samples.
+2. **Decision Tree**: A tree-based model that splits data into subsets based on feature values.
 
-### 3. Random Forest
-- An ensemble of decision trees trained on random subsets of data and features.
-- **Strengths**: Reduces overfitting and improves generalization; robust to noise.
-- **Weaknesses**: Less interpretable than a single decision tree.
+3. **Random Forest**: An ensemble of decision trees trained on random subsets of data and features.
 
-### 4. AdaBoost
-- An ensemble method that combines weak classifiers (e.g., decision trees) iteratively.
-- **Strengths**: Focuses on difficult-to-classify samples; reduces bias.
-- **Weaknesses**: Sensitive to noisy data and outliers.
+4. **AdaBoost**: An ensemble method that combines weak classifiers (e.g., decision trees) iteratively.
 
-### 5. Bagging (Bootstrap Aggregation)
-- An ensemble method that builds multiple models using random subsets of data.
-- **Strengths**: Reduces variance and prevents overfitting.
-- **Weaknesses**: Less effective when base models are already strong learners.
+5. **Bagging**: An ensemble method that builds multiple models using random subsets of data.
 
-### 6. Naive Bayes
-- A probabilistic model based on Bayes' theorem and the assumption of feature independence.
-- **Strengths**: Fast and simple; works well with small datasets and categorical data.
-- **Weaknesses**: Assumes independence between features, which may not hold true.
+6. **Naive Bayes**: A probabilistic model based on Bayes' theorem and the assumption of feature independence.
 
-### 7. Logistic Regression
-- A linear model that predicts probabilities using the logistic function.
-- **Strengths**: Simple, interpretable, and effective for binary classification.
-- **Weaknesses**: Assumes a linear relationship between features and the log-odds of the target variable.
+7. **Logistic Regression**: A linear model that predicts probabilities using the logistic function.
 
-### 8. Support Vector Machine (SVM)
-- A model that finds the hyperplane that best separates classes in the feature space.
-- **Strengths**: Effective in high-dimensional spaces; robust to overfitting with proper kernel.
-- **Weaknesses**: Computationally intensive; requires careful tuning of hyperparameters.
+8. **Support Vector Machine (SVM)**: A model that finds the hyperplane that best separates classes in the feature space.
 
-### 9. Neural Network (MLP - Multi-Layer Perceptron)
-- A deep learning model that mimics the structure of biological neurons.
-- **Strengths**: Capable of learning complex patterns and relationships.
-- **Weaknesses**: Requires large datasets and computational resources; less interpretable.
+9. **Neural Network (MLP - Multi-Layer Perceptron)**: A deep learning model that mimics the structure of biological neurons.
