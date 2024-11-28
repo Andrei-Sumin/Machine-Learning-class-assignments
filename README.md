@@ -1,13 +1,12 @@
 <img src="https://i0.wp.com/irriverender.blog/wp-content/uploads/2017/11/poli_1.png?resize=1200%2C360&ssl=1" alt="Loan Approval Visualization" width="300">
 
-## Machine Learning Course 2024
+### Machine Learning Course 2024
 
 # Loan Approval Prediction
 
 ## Overview
 This is a **university course assignment** that explores the use of different machine learning algorithms to predict loan approval outcomes based on provided dataset. The objective is to analyze the factors influencing loan approvals and build a predictive model.
 
----
 
 ## Features
 - **Exploratory Data Analysis (EDA):** Understanding the dataset through visualizations and summary statistics.
@@ -17,7 +16,6 @@ This is a **university course assignment** that explores the use of different ma
   - Compared model performance using metrics like accuracy, precision, recall, F1-score, and AUC-ROC.
 - **Cost Optimization:** Incorporated a cost-based approach to optimize the classification threshold, balancing the financial risks of false positives and false negatives.
 
----
 
 ## Data
 The dataset contains 614 entries with the following features:
@@ -25,7 +23,6 @@ The dataset contains 614 entries with the following features:
 - **Numerical Features:** ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History.
 - **Target Variable:** Loan_Status (approved or not).
 
----
 
 ## Key Insights
 1. **EDA Findings:**
@@ -34,7 +31,6 @@ The dataset contains 614 entries with the following features:
 2. **Model Performance:**
    - Random Forest achieved the highest AUC (0.79) and performed best in terms of precision-recall balance. Additionally, cost optimization identified Random Forest as the model with the lowest financial risk under the given assumptions; however, this method requires a reevaluation of those assumptions for more accurate conclusions.
 
----
 
 ## Project Structure
 - `Loan_Approval_Prediction.ipynb`: Main notebook containing code and analysis.
@@ -42,7 +38,6 @@ The dataset contains 614 entries with the following features:
 - `scaler.pkl`: Scaler used for feature normalization.
 - `dataset.csv`: A dataset.
 
----
 
 ## Short review of machine learning algorithms used for classification
 This section provides a brief description of the machine learning models used in this project to predict loan approvals:
@@ -65,7 +60,6 @@ This section provides a brief description of the machine learning models used in
 
 9. **Neural Network (MLP - Multi-Layer Perceptron)**: A deep learning model that mimics the structure of biological neurons.
 
----
 
 ## How to use pre-trained model
 
