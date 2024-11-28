@@ -32,9 +32,7 @@ The dataset contains 614 entries with the following features:
    - Credit history is a strong predictor of loan approval.
    - Applicant and co-applicant incomes have some influence, but their distribution required transformations for better model performance.
 2. **Model Performance:**
-   - Random Forest achieved the highest AUC (0.79) and performed best in terms of precision-recall balance.
-3. **Cost Analysis:**
-   - Cost optimization identified Random Forest as the model with the lowest financial risk under given assumptions.
+   - Random Forest achieved the highest AUC (0.79) and performed best in terms of precision-recall balance. Additionally, cost optimization identified Random Forest as the model with the lowest financial risk under the given assumptions; however, this method requires a reevaluation of those assumptions for more accurate conclusions.
 
 ---
 
