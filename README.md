@@ -64,3 +64,23 @@ This section provides a brief description of the machine learning models used in
 8. **Support Vector Machine (SVM)**: A model that finds the hyperplane that best separates classes in the feature space.
 
 9. **Neural Network (MLP - Multi-Layer Perceptron)**: A deep learning model that mimics the structure of biological neurons.
+
+---
+
+## How to use pre-trained model
+
+```
+# Load required libraries
+import pickle
+
+# Load model and scaler from .pkl files
+model = pickle.load(open('model.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
+
+# Scale the data
+data_scaled = scaler.transform(data)
+
+# Predict
+predictions = model.predict(data_scaled)
+print(predictions)
+```
