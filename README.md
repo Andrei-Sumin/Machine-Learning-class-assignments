@@ -78,3 +78,10 @@ data_scaled = scaler.transform(data)
 predictions = model.predict(data_scaled)
 print(predictions)
 ```
+
+
+<br> 
+<br>
+
+### License:
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
