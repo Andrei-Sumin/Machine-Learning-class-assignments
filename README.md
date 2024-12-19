@@ -2,7 +2,7 @@
 
 ### Machine Learning Course 2024
 
-# Loan Approval Prediction
+# Loan Approval Prediction (Classification)
 
 ## Overview
 This is a **university course assignment** that explores the use of different machine learning algorithms to predict loan approval outcomes based on provided dataset. The objective is to analyze the factors influencing loan approvals and build a predictive model.
@@ -78,6 +78,11 @@ data_scaled = scaler.transform(data)
 predictions = model.predict(data_scaled)
 print(predictions)
 ```
+
+
+
+# Pollution Levels Prediction (Classification)
+
 
 
 <br> 
