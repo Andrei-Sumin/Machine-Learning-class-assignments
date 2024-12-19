@@ -1,6 +1,6 @@
 <img src="https://i0.wp.com/irriverender.blog/wp-content/uploads/2017/11/poli_1.png?resize=1200%2C360&ssl=1" alt="Loan Approval Visualization" width="300">
 
-# Loan Approval Prediction (Classification)
+# Loan Approval Prediction
 
 ## Overview
 This is a **university course assignment** that explores the use of different machine learning algorithms to predict loan approval outcomes based on provided dataset. The objective is to analyze the factors influencing loan approvals and build a predictive model.
