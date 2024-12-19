@@ -1,6 +1,6 @@
 <img src="https://i0.wp.com/irriverender.blog/wp-content/uploads/2017/11/poli_1.png?resize=1200%2C360&ssl=1" alt="Loan Approval Visualization" width="300">
 
-# Pollution Levels Prediction (Regression)
+# Pollution Levels Prediction
 
 
 ## Overview
