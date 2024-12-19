@@ -4,7 +4,11 @@
 
 This repository contains 2 projects:
 - [**Loan Approval Prediction**](https://github.com/Andrei-Sumin/Machine-Learning-class-assignments/tree/main/Loan-Approval-Prediction) - an assignment on classification.
+  
+  (`Loan-Approval-Prediction` folder)
 - [**Pollution Levels Prediction**](https://github.com/Andrei-Sumin/Machine-Learning-class-assignments/tree/main/Pollution-Levels-Prediction) - an assignment on regression.
+  
+  (`Pollution-Levels-Prediction` folder)
 
 ---
 
