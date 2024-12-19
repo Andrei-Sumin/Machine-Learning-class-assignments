@@ -2,6 +2,8 @@
 
 ### Machine Learning Course 2024
 
+---
+
 # Loan Approval Prediction (Classification)
 
 ## Overview
@@ -79,7 +81,7 @@ predictions = model.predict(data_scaled)
 print(predictions)
 ```
 
-
+---
 
 # Pollution Levels Prediction (Classification)
 
