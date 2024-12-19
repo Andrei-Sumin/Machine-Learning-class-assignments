@@ -79,7 +79,7 @@ print(predictions)
 
 ---
 
-# Pollution Levels Prediction (Classification)
+# Pollution Levels Prediction (Regression)
 
 
 ## Overview
