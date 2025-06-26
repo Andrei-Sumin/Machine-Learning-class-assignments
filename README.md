@@ -108,7 +108,7 @@ The dataset contains 14,000 entries with the following features:
    - Gradient Boosting achieved the lowest MAE (303.240), followed by Random Forest (304.494).
 
 ## Project Structure
-- `assignment3_sumin.ipynb`: Main notebook containing code and analysis.
+- `Pollution_Levels_Prediction.ipynb`: Main notebook containing code and analysis.
 - `pollution.csv`: Dataset file.
 - `gradient_boost_model.pkl`: Saved Gradient Boosting model for deployment.
 - `scaler.pkl`: Scaler used for data normalization.
